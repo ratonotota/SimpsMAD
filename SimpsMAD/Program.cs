@@ -35,6 +35,8 @@ namespace learningSelenium
             driver.SwitchTo().ActiveElement().SendKeys(Keys.Enter);
                 System.Threading.Thread.Sleep(300);
             driver.FindElementByClassName("wrapper-1BJsBx").Click();
+            Console.WriteLine("thank you!");
+            Console.WriteLine("thank you!");
 
             System.Threading.Thread.Sleep(30000);
             var captured = "oi";
